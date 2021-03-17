@@ -1,0 +1,6 @@
+
+export const gigasecond = (start) => {
+  let beginTime = start.getTime();
+  let result = new Date(beginTime + 1000000000000);
+  return result;
+};
